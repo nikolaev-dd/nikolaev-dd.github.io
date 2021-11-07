@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nikolaev-dd.github.io/static/css/main.840b473d.chunk.css",
-    "main.js": "/nikolaev-dd.github.io/static/js/main.7a6edb16.chunk.js",
-    "main.js.map": "/nikolaev-dd.github.io/static/js/main.7a6edb16.chunk.js.map",
-    "runtime-main.js": "/nikolaev-dd.github.io/static/js/runtime-main.45ea7594.js",
-    "runtime-main.js.map": "/nikolaev-dd.github.io/static/js/runtime-main.45ea7594.js.map",
-    "static/js/2.1f3a1439.chunk.js": "/nikolaev-dd.github.io/static/js/2.1f3a1439.chunk.js",
-    "static/js/2.1f3a1439.chunk.js.map": "/nikolaev-dd.github.io/static/js/2.1f3a1439.chunk.js.map",
-    "static/js/3.a58f5969.chunk.js": "/nikolaev-dd.github.io/static/js/3.a58f5969.chunk.js",
-    "static/js/3.a58f5969.chunk.js.map": "/nikolaev-dd.github.io/static/js/3.a58f5969.chunk.js.map",
-    "index.html": "/nikolaev-dd.github.io/index.html",
-    "static/css/main.840b473d.chunk.css.map": "/nikolaev-dd.github.io/static/css/main.840b473d.chunk.css.map",
-    "static/js/2.1f3a1439.chunk.js.LICENSE.txt": "/nikolaev-dd.github.io/static/js/2.1f3a1439.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.840b473d.chunk.css",
+    "main.js": "/static/js/main.7a6edb16.chunk.js",
+    "main.js.map": "/static/js/main.7a6edb16.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d32ff161.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d32ff161.js.map",
+    "static/js/2.1f3a1439.chunk.js": "/static/js/2.1f3a1439.chunk.js",
+    "static/js/2.1f3a1439.chunk.js.map": "/static/js/2.1f3a1439.chunk.js.map",
+    "static/js/3.a58f5969.chunk.js": "/static/js/3.a58f5969.chunk.js",
+    "static/js/3.a58f5969.chunk.js.map": "/static/js/3.a58f5969.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.840b473d.chunk.css.map": "/static/css/main.840b473d.chunk.css.map",
+    "static/js/2.1f3a1439.chunk.js.LICENSE.txt": "/static/js/2.1f3a1439.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.45ea7594.js",
+    "static/js/runtime-main.d32ff161.js",
     "static/js/2.1f3a1439.chunk.js",
     "static/css/main.840b473d.chunk.css",
     "static/js/main.7a6edb16.chunk.js"
