@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2 Sides Challenge</title>
+<meta name="description" content="2 Sides Challenge is a fast-paced, brain-teasing puzzle game where you connect matching shapes using both hands at the same time.">
+<style>
+  :root {
+    --bg: #0b0b12;
+    --card: #15151f;
+    --text: #f4f4f8;
+    --muted: #a6a6b3;
+    --accent1: #1f7a5c;
+    --accent2: #e5457e;
+    --border: rgba(255,255,255,0.08);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --text: #17171f;
+      --muted: #5b5b66;
+      --border: rgba(0,0,0,0.08);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--accent1), var(--accent2));
+    padding: 72px 24px 56px;
+    text-align: center;
+    color: #fff;
+  }
+  header.hero .icon {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 20px;
+    border-radius: 22px;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    backdrop-filter: blur(4px);
+  }
+  header.hero h1 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    letter-spacing: -0.02em;
+  }
+  header.hero p {
+    margin: 0 auto;
+    max-width: 480px;
+    font-size: 17px;
+    opacity: 0.95;
+  }
+  .cta {
+    margin-top: 28px;
+  }
+  .cta a {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+  section {
+    margin-top: 48px;
+  }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+  p.desc {
+    font-size: 16px;
+  }
+  ul.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+  }
+  ul.features li {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+  ul.features li strong {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  footer a {
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="icon">◯△</div>
+  <h1>2 Sides Challenge</h1>
+  <p>Are you a lefty or right-handed? It's time to put both to the ultimate test!</p>
+  <div class="cta">
+    <a href="https://apps.apple.com/app/id6790892823">Download on the App Store</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>About</h2>
+    <p class="desc">
+      2 Sides Challenge is a fast-paced, brain-teasing puzzle game where you must connect
+      matching shapes using both hands simultaneously. It sounds simple, but as the clock
+      ticks down, you'll need lightning-fast reflexes and perfect coordination to beat your
+      high score.
+    </p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <ul class="features">
+      <li>
+        <strong>Dual-Handed Gameplay</strong>
+        Swipe and connect shapes on both sides of the screen at the exact same time.
+      </li>
+      <li>
+        <strong>Race Against Time</strong>
+        Be quick! You only have a few seconds to find and connect the matching pairs.
+      </li>
+      <li>
+        <strong>Global Leaderboards</strong>
+        Compete with players worldwide via Game Center and prove you have the fastest hands.
+      </li>
+      <li>
+        <strong>Endless Fun</strong>
+        The game gets progressively harder, challenging your brain and reflexes.
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 2 Sides Challenge</span>
+    <span><a href="app-ads.txt">app-ads.txt</a></span>
+  </footer>
+
+</div>
+
+</body>
+</html>
